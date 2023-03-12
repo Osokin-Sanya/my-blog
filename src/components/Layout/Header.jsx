@@ -12,7 +12,7 @@ export default function Header() {
         <div className="instagram_profile">Osok1ns</div>
       </a>
 
-      <div className="header_title">Интернет дневник Александра Осокина</div>
+      <div className="header_title">Блог Александра Осокина</div>
       <img className="photo" src={photo} />
     </div>
   );
