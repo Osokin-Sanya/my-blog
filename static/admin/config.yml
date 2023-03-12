@@ -3,11 +3,11 @@ backend:
   branch: main
   repo: Osokin-Sanya/blog
 
-# local_backend:
-#   # when using a custom proxy server port
-#   url: http://localhost:8082/api/v1
-#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-#   allowed_hosts: ["192.168.0.1"]
+local_backend:
+  # when using a custom proxy server port
+  url: http://localhost:8082/api/v1
+  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+  allowed_hosts: ["192.168.0.1"]
 
 publish_mode: editorial_workflow
 media_folder: static/media
